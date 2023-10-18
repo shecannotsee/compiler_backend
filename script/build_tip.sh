@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "define:"
+echo "|——nasm -f <format> <filename> [-o <output>]"
+echo "example"
+echo "|——nasm -f elf myfile.asm # 将汇编 myfile.asm 成一个 ELF 对象文件 myfile.o"
+echo "|——nasm -f64 elf myfile.asm # 将汇编 myfile.asm 成一个 ELF 对象文件 myfile.o"
+echo "|"
+echo "|——nasm -f bin myfile.asm -o myfile.com # 将汇编 myfile.asm 成一个原始二进制文件 myfile.com "
+echo "|——nasm -f bin64 myfile.asm -o myfile.com # 将汇编 myfile.asm 成一个原始二进制文件 myfile.com "
+echo ""
+echo "linux [-f elf] or [-f aout]"
+echo "please to use [file nasm] to confirm your -f type"
